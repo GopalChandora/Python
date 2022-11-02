@@ -13,5 +13,5 @@ class car:
   price = "1cr"
 
 cr = car()
-print(cr.name)
-print(cr.price)
+print("name: ",cr.name)
+print("Price: ",cr.price)
