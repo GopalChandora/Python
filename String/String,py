@@ -1,0 +1,80 @@
+''' Syntax : name = 'value' '''
+
+str = 'GOPAL'
+str1= 'chandora'
+str2= 'Hello i \tam goPal\textc bANch 2 yr'
+print ('\n Str =', str)
+print ('\n Str1 =', str1)
+print ('\n Str2 =', str2)
+print('\n Type =',type(str1)) # type
+print('\n',str+ str1) # concatination
+print('\n Length =',len(str2)) # length
+print('\n multiplying str =',str * 5) # multiple times printing 
+
+print('\n Capitalize str2=',str1.capitalize()) # Capitalize the first element of the string
+
+print('\n Lower str1 =', str.lower()) # convert the whole string into lower case.
+
+print('\n Casefold str =',str2.casefold()) # convert the sting into lower case.
+
+print('\n Center str =',str.center(15)) #centered the string by specified width
+
+substr2='am'
+print('\n Count =',str2.count(substr2)) # counting the occurence of the specific  element in the string
+
+print('\n Encoded str =',str.encode())#encode()
+
+print('\n str startswith G =',str.startswith('G')) # it give true when the string starts with the arguments provided.
+
+print('\n str2 Endswith yr =',str2.endswith('yr')) # it give true when the string ends with the specified elements or value.
+
+print('\n Tab size 5 =',str2.expandtabs(5)) # sets the tab(\t) size in the string.
+
+print('\n Find A at =',str.find('A')) #Finding the location of element of string by specifing the element.
+
+print('\n GO{}AL Sem {}'.format('P',4)) #formating string 
+
+print('\n Index chandora =',str1.index('n')) # identifing the index position of the element in string.
+
+print('\n Is str is Alphanumeric =',str2.isalnum()) # if charaters in string are alphanumerical without having space then it true.
+
+print('\n Is str2 is number =',str2.isalpha()) # if characters in string are numbers(any type) then it will give true.
+
+print('\n Is str2 is decimal =',str2.isdecimal()) # if characters in string are only decimal numbers then it will give true.
+print('\n Is str2 is digit =',str2.isdigit())# if characters in string are only digits then true
+
+print('\n Is str2 is identifier =',str2.isidentifier())# if characters in string are only digits then true
+
+print('\n Is str1 is lower =',str1.islower())# if all the characters of string are in lower case then true.
+
+print('\n Is str2 is printable=',str2.isprintable())# All characters in string are printable with space but (\n,\t) are not so false.
+
+st = '\n \t'
+print('\n Is st is spaced =',st.isspace())# All characters in string are only contain whitespace(\n,\t) true,if it is printable then false.
+
+print('\n Is str is title =',str.istitle())# if the first letter of every characters in string is Capital then it istitle and return true.
+
+print('\n Is str is upper=',str.isupper())#if all the characters of string are in Upper case then true.
+
+nstr='12345'
+print('\n join =',str.join(nstr))# dividing each character of argument string and join the first string after each division.
+
+print('\n Left justified str1 =',str1.ljust(10))# justifing the string towards left.
+
+print('\n Left Strip str =',str.lstrip('GO'))# cut or remove the specific letter of string from left.
+
+print('\n partition GOPAL =',str.partition('P')) #divides the string into three part in tuples container from specified value.
+
+print('\n Replace GOPAL =',str.replace('P','O'))# replace the character or letter from string by specifing the value.
+
+print('\n Split chandora =',str1.split('n'))  #splits the value by providing arguments 
+
+print('\n Splitlines str2 =',str2.splitlines(True)) # It will display which whitespace you used(\n\t..).
+
+print('\n swapcase str2 =',str2.swapcase()) # swaps the uppercase to lowercase and vice versa.
+
+print('\n title str2 =',str2.title()) # Uppercase the first letter of each character of string.
+
+str = 'Gopalchandora'
+print(str[0:7:2])
+''' it will print by skiping(gap of) one character in the range '''
